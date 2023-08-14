@@ -17,6 +17,10 @@ RUN apt-get update && \
     wget \
     gcc \
     vim \
+    python \
+    python3 \
+    python3-pip \
+    python3-pexpect \
     linux-headers-4.15.0-112-generic && \
     apt-get clean
 
