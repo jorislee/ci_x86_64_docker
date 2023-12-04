@@ -15,9 +15,11 @@ RUN apt-get update && \
     make \
     wget \
     gcc \
+    g++ \
     vim \
     python \
     python3 \
+    libssl-dev \
     python3-pip \
     python3-pexpect \
     linux-headers-4.15.0-112-generic && \
